@@ -23,7 +23,7 @@ export default function mainMenu() {
 	];
 
 	k.add([
-		k.text("OLIK RING RUN", { font: "mania", size: 96 }),
+		k.text("VAZHA RING RUN", { font: "mania", size: 96 }),
 		k.pos(k.center().x, 200),
 		k.anchor("center"),
 	]);
@@ -33,7 +33,6 @@ export default function mainMenu() {
 		k.pos(k.center().x, k.center().y - 200),
 		k.anchor("center"),
 	]);
-
 
 	makeOlik(k.vec2(200, 745));
 
